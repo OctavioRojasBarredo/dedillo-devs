@@ -24,5 +24,10 @@ public class Una
     public void setLijado(){
         esLijada = !esLijada;
     }
+
+    
+    public String imprimirDetalles(){
+        return = "La uña está lijada: " + esLijada + " | La longitud es de " + longitudUna + "cm";
+    }
     
 }

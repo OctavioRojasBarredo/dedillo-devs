@@ -27,7 +27,7 @@ public class Una
 
     
     public String imprimirDetalles(){
-        return = "La uña está lijada: " + esLijada + " | La longitud es de " + longitudUna + "cm";
+        return "La uña está lijada: " + esLijada + " | La longitud es de " + longitudUna + "cm";
     }
     
 }

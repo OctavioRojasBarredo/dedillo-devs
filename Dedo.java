@@ -4,5 +4,11 @@ public class Dedo
     private int longitudDedo;
     private boolean una;
  
+    public Dedo()
+    {
+        tipoDeDedo = "Normal";
+        longitudDedo = 5;
+        una = true;
+    }
 
 }

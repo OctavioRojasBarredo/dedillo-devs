@@ -10,5 +10,15 @@ public class Dedo
         longitudDedo = 5;
         una = true;
     }
-
+    
+    public String getTipoDeDedo(){
+        return tipoDeDedo;
+    }
+    public int getLongitudDedo(){
+        return longitudDedo;
+    }
+    public boolean getUna(){
+        return una;
+    }
+    
 }

@@ -34,5 +34,10 @@ public class Dedo
     public void setTieneUna (boolean tieneUna) {
         una = tieneUna;
     }
+    
+    public void imprimirDetalles(){
+        System.out.println("Tipo de dedo" + tipoDeDedo + "Longitud de dedo: " + longitudDedo + "¿Tiene uña? " + una);
+    }
 
 }
+

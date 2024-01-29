@@ -2,13 +2,13 @@ public class Dedo
 {
     private String tipoDeDedo;
     private int longitudDedo;
-    private boolean una;
+    private Una una;
 
     public Dedo()
     {
         tipoDeDedo = "Normal";
         longitudDedo = 5;
-        una = true;
+        una = new Una();
     }
 
     public String getTipoDeDedo(){
@@ -20,21 +20,21 @@ public class Dedo
     }
 
     public boolean getUna(){
-        return una;
+        return una.getLijado();
     }
 
     public void setTipoDeDedo(String nuevoTipoDeDedo) {
         tipoDeDedo = nuevoTipoDeDedo;
     }
-    
+
     public void setLongitudDeDedo(int nuevaLongitud) {
         longitudDedo = nuevaLongitud;
     }
 
-    public void setTieneUna (boolean tieneUna) {
-        una = tieneUna;
+    public void setLongitudDeUna(int nuevaLongitud) {
+        una.setLongitudUna(nuevaLongitud);
     }
-    
+
     public void imprimirDetalles(){
         System.out.println("Tipo de dedo" + tipoDeDedo + "Longitud de dedo: " + longitudDedo + "¿Tiene uña? " + una);
     }

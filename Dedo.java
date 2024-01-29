@@ -36,7 +36,7 @@ public class Dedo
     }
 
     public void imprimirDetalles(){
-        System.out.println("Tipo de dedo" + tipoDeDedo + "Longitud de dedo: " + longitudDedo + "¿Tiene uña? " + una);
+        System.out.println("Tipo de dedo " + tipoDeDedo + " | Longitud de dedo: " + longitudDedo + "| Longitud de uña: " + una.getLongitudUna() + " | Es lijada: " + una.getLijado());
     }
 
 }
